@@ -1,0 +1,28 @@
+.feature__list {
+  display: flex;
+  & .feature-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.feature-list__item {
+  width: 270px;
+}
+.feature-list__icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--third-bg-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.feature-list__name {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
